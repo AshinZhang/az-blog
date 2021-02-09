@@ -1,0 +1,31 @@
+.az-button {
+  color: #FFFFFF;
+  font-size: 12px;
+  position: relative;
+  background: #666666;
+  padding: 4px 11px;
+  cursor: pointer;
+  transition: color .4s linear;
+  z-index: 0;
+}
+/* .az-button:hover {
+  color: #FFFFFF
+}
+.az-button::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid transparent;
+  transition: all .4s;
+  background: #444444;
+  z-index: -1;
+  transform-origin: 50% 50%;
+  transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+  transform: scaleX(0);
+}
+.az-button:hover::before {
+  transform: scaleX(1);
+} */

@@ -1,0 +1,28 @@
+.az-layout {
+  display: flex;
+}
+
+.az-layout .az-sider,
+.az-layout main {
+  min-height: 720px;
+}
+.az-layout .az-sider {
+  min-width: 320px;
+}
+.az-layout main {
+  min-width: 1000px;
+  background: #eaeaea;
+  height: 100vh;
+  flex-grow: 1;
+  padding: 0 30px;
+  overflow-y: scroll;
+}
+
+main nav a {
+  box-shadow: none;
+}
+
+/* .az-layout main div {
+  background-color: #fff;
+  height: 2000px;
+} */

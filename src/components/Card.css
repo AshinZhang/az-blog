@@ -1,0 +1,46 @@
+.az-card {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.az-card .card-content {
+  background: #ffffff;
+  padding: .75rem .875rem;
+}
+
+.az-card .card-content .card-tag{
+  font-size: .875rem;
+  margin-bottom: .25rem;
+  color: #6d7685;
+}
+
+.az-card .card-content .card-tag span{
+  margin-right: .75rem;
+}
+
+.az-card .card-content .card-title {
+  height: 48px;
+  font-size: .9375rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}
+.az-card .card-content .card-title a{
+  color: #161E27;
+  box-shadow: none;
+}
+
+.az-card .card-content .card-footer {
+  margin-top: .5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: .75rem;
+  color: #6d7685;
+}
+
+.az-card .card-content .card-footer .view-count{
+  display: flex;
+  align-items: center;
+}

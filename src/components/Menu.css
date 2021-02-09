@@ -1,0 +1,11 @@
+.az-menu .menu-item {
+  margin: 10px 0;
+}
+.az-menu .menu-item a {
+  color: #696969;
+  box-shadow: none;
+}
+
+.az-menu .menu-item a:hover {
+  box-shadow: 0 1px 0 0 currentColor;
+}
